@@ -1,5 +1,7 @@
 package bean;
 
+import androidx.annotation.NonNull;
+
 public class DBWordBean {
     private int _id;
     private String word;
@@ -65,4 +67,10 @@ public class DBWordBean {
     private String sentence;
     private String sentence_trans;
     private int isCollection;
+
+    @NonNull
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
