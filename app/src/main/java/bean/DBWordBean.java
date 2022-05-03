@@ -67,4 +67,17 @@ public class DBWordBean {
     private String sentence;
     private String sentence_trans;
     private int isCollection;
+
+    @Override
+    public String toString() {
+        return "DBWordBean{" +
+                "_id=" + _id +
+                ", word='" + word + '\'' +
+                ", accent='" + accent + '\'' +
+                ", mean_cn='" + mean_cn + '\'' +
+                ", sentence='" + sentence + '\'' +
+                ", sentence_trans='" + sentence_trans + '\'' +
+                ", isCollection=" + isCollection +
+                '}';
+    }
 }
