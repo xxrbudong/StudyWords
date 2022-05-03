@@ -67,10 +67,4 @@ public class DBWordBean {
     private String sentence;
     private String sentence_trans;
     private int isCollection;
-
-    @NonNull
-    @Override
-    public String toString() {
-        return super.toString();
-    }
 }
